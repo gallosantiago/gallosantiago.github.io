@@ -47,12 +47,12 @@ export interface PersonalInfo {
 
 // Personal Information
 export const personalInfo: PersonalInfo = {
-  name: "Your Brother's Name",
+  name: "Santiago Gallo",
   title: "Aggressive Rollerskater",
   subtitle: "Sponsored Athlete & Competitor",
   bio: [
-    "Meet [Brother's Name], a passionate aggressive rollerskater who has been pushing the boundaries of what's possible on wheels. With years of dedication to the sport, he has evolved from a local skater to a sponsored athlete competing at the highest levels.",
-    "His journey began in [Year/Location], where he first discovered the thrill of aggressive skating. Through countless hours of practice, determination, and an unwavering passion for progression, he has mastered technical tricks and developed his own unique style that sets him apart in competitions.",
+    "Meet Santiago Gallo, a passionate aggressive rollerskater who has been pushing the boundaries of what's possible on wheels. With years of dedication to the sport, he has evolved from a local skater to a sponsored athlete competing at the highest levels.",
+    "His journey began in 2012 Buenos Aires, where he first discovered the thrill of aggressive skating. Through countless hours of practice, determination, and an unwavering passion for progression, he has mastered technical tricks and developed his own unique style that sets him apart in competitions.",
     "Today, he continues to inspire the next generation of skaters while representing some of the industry's most respected brands as a sponsored athlete."
   ],
   stats: {
@@ -61,9 +61,9 @@ export const personalInfo: PersonalInfo = {
     experience: "10+"
   },
   contact: {
-    email: "contact@brothersname.com",
-    location: "Your City, Your Country",
-    instagram: "https://www.instagram.com/yourbrotherhandle",
+    email: "santiago.gallo96@outlook.com",
+    location: "C.A.B.A, Aregentina",
+    instagram: "https://www.instagram.com/santigangllo",
     youtube: "https://www.youtube.com/@YourBrothersChannel"
   }
 };
