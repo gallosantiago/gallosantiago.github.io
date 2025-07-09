@@ -117,7 +117,7 @@ export const competitions: Competition[] = [
     name: "World Skate Games",
     year: "2019",
     location: "Barcelona España",
-    placement: "20rd Place",
+    placement: "20th Place",
     category: "Park",
     medal: "none",
     link: "https://m.youtube.com/watch?v=RyUEj_n5OQQ&pp=ygUeV3JnIGJhcmNlbG9uYSByb2xsZXIgZnJlZXN0eWxl0gcJCcEJAYcqIYzv"
@@ -127,7 +127,7 @@ export const competitions: Competition[] = [
     name: "Sudamericano",
     year: "2021",
     location: " San Juan Argentina",
-    placement: "13 and 20 st Place",
+    placement: "13th and 20th Place",
     category: "Street and Park",
     medal: "none",
     link: ""
@@ -137,7 +137,7 @@ export const competitions: Competition[] = [
     name: "World Skate Games",
     year: "2022",
     location: "Buenos Aires Argentina",
-    placement: "13 and 29 st Place",
+    placement: "13th and 29th Place",
     category: "Street and Park",
     medal: "none",
     link: "https://m.youtube.com/watch?v=N1XTN5sksb0&pp=ygUoV29ybGQgIHNrYXRlIGdhbWVzICByb2xsZXIgZnJlc3R5bGUgMjAyMg%3D%3D"
@@ -157,7 +157,7 @@ export const competitions: Competition[] = [
     name: "Machetazo ",
     year: "2025",
     location: "Uruguay Montevideo",
-    placement: "2th Place",
+    placement: "2nd Place",
     category: "Street",
     medal: "silver",
     link: "https://example.com/competition5"
@@ -167,7 +167,7 @@ export const competitions: Competition[] = [
     name: "National Championship",
     year: "2021",
     location: "Villa Marteli Argentina",
-    placement: "1nd Place",
+    placement: "1st Place",
     category: "Park",
     medal: "gold",
     link: ""
