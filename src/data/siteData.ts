@@ -66,7 +66,7 @@ export const personalInfo: PersonalInfo = {
   },
   contact: {
     email: "santiago.gallo96@outlook.com",
-    location: "C.A.B.A, Aregentina",
+    location: "C.A.B.A, Argentina",
     instagram: "https://www.instagram.com/santigangllo",
     youtube: "https://m.youtube.com/watch?v=d2063AlK2Ug&fbclid=PAQ0xDSwLanq9leHRuA2FlbQIxMAABp66vjhNXjZ5xcZW9ySuKhP-Nn55dhYx5ZkulajQtULnu1uBGlwBSnJ_uKPnJ_aem_mPVcKyUFR1N3kUF8Lkekgg"
   }
@@ -84,14 +84,14 @@ export const videos: Video[] = [
   {
     id: 2,
     title: "Cordoba Tour",
-    description: "2 Weeks En Cordoba Whit Friends",
+    description: "2 Weeks En Cordoba With Friends",
     thumbnail: "🛩️",
     url: "https://m.youtube.com/watch?v=YN24nY5xiVQ&fbclid=PAQ0xDSwLaoYZleHRuA2FlbQIxMAABp_gn3uWXeloK0su9THa78Q9l35HjPpv5KK5b6nJZwT5L7_5oA-MGznTGPusu_aem_T1plfKtISbK0bRwNmm3Haw#menu"
   },
   {
     id: 3,
     title: "Rey Galactiko",
-    description: "Clips From Buenos Aires Whit Lacru",
+    description: "Clips From Buenos Aires With Lacru",
     thumbnail: "👨‍👨‍👦‍👦",
     url: "https://m.youtube.com/watch?v=y8AMQW8u-VY&pp=ygUTUmV5IGdhbGFjdGlrbyBsYWNydQ%3D%3D"
   },
