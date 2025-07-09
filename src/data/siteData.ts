@@ -60,7 +60,7 @@ export const personalInfo: PersonalInfo = {
     "Today, he continues to inspire the next generation of skaters while representing some of the industry's most respected brands as a sponsored athlete."
   ],
   profileImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/santi_profile.jpeg?raw=true",
-  bioImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Backroyal.jpg?raw=true",
+  bioImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Backroyale.jpg?raw=true",
   stats: {
     competitions: "20+",
     sponsors: "4+",
@@ -81,7 +81,7 @@ export const videos: Video[] = [
     title: "USD introduce ",
     description: "A Part For a Big Brand",
     thumbnail: "",
-    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Usdintro.jpg}?raw=true"
+    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Usdintro.jpg}?raw=true", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Usdintro.jpg}?raw=true"
     url: "https://m.youtube.com/watch?v=d2063AlK2Ug&pp=0gcJCfwAo7VqN5tD"
   },
   {
@@ -89,7 +89,7 @@ export const videos: Video[] = [
     title: "Cordoba Tour",
     description: "2 Weeks En Cordoba With Friends",
     thumbnail: "",
-    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Caravanatour.jpg}?raw=true"
+    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Caravanatour.jpg}?raw=true", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Caravanatour.jpg}?raw=true"
     url: "https://m.youtube.com/watch?v=YN24nY5xiVQ&fbclid=PAQ0xDSwLaoYZleHRuA2FlbQIxMAABp_gn3uWXeloK0su9THa78Q9l35HjPpv5KK5b6nJZwT5L7_5oA-MGznTGPusu_aem_T1plfKtISbK0bRwNmm3Haw#menu"
   },
   {
@@ -97,7 +97,7 @@ export const videos: Video[] = [
     title: "Rey Galactiko",
     description: "Clips From Buenos Aires With Lacru",
     thumbnail: "",
-    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Reygalactiko.jpg}?raw=true"
+    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Reygalactiko.jpg}?raw=true", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Reygalactiko.jpg}?raw=true"
     url: "https://m.youtube.com/watch?v=y8AMQW8u-VY&pp=ygUTUmV5IGdhbGFjdGlrbyBsYWNydQ%3D%3D"
   },
   {
@@ -105,7 +105,7 @@ export const videos: Video[] = [
     title: "Leftovers ",
     description: "Leftover Street Clips",
     thumbnail: "",
-    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Leftovers.jpg}?raw=true"
+    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Leftovers.jpg}?raw=true", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Leftovers.jpg}?raw=true"
     url: "https://www.instagram.com/reel/DDx6Mr-s54-/?igsh=djduM25uNHZudHY2"
   }
 ];
