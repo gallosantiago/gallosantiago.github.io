@@ -56,9 +56,9 @@ export const personalInfo: PersonalInfo = {
     "Today, he continues to inspire the next generation of skaters while representing some of the industry's most respected brands as a sponsored athlete."
   ],
   stats: {
-    competitions: "5+",
-    sponsors: "3+",
-    experience: "10+"
+    competitions: "6+",
+    sponsors: "4+",
+    experience: "11+"
   },
   contact: {
     email: "santiago.gallo96@outlook.com",
@@ -73,7 +73,7 @@ export const videos: Video[] = [
   {
     id: 1,
     title: "Competition Highlights 2024",
-    description: "Best moments from recent competitions",
+    description: "Video 1",
     thumbnail: "🎥",
     url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   },
