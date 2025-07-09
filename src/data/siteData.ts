@@ -51,7 +51,7 @@ export const personalInfo: PersonalInfo = {
   title: "Roller Freestyle",
   subtitle: "Sponsored Athlete & Competitor",
   bio: [
-    "Meet Santiago Gallo, a passionate aggressive rollerskater who has been pushing the boundaries of what's possible on wheels. With years of dedication to the sport, he has evolved from a local skater to a sponsored athlete competing at the highest levels.",
+    "Meet Santiago Gallo, a passionate inline freestyle skater who has been pushing the boundaries of what's possible on wheels. With years of dedication to the sport, he has evolved from a local skater to a sponsored athlete competing at the highest levels.",
     "His journey began in 2012 Buenos Aires, where he first discovered the thrill of freestyle rolling. Through countless hours of practice, determination, and an unwavering passion for progression, he has mastered technical tricks and developed his own unique style that sets him apart in competitions.",
     "Today, he continues to inspire the next generation of skaters while representing some of the industry's most respected brands as a sponsored athlete."
   ],
@@ -109,7 +109,7 @@ export const competitions: Competition[] = [
     location: "Barcelona España",
     placement: "20rd Place",
     category: "Park",
-    medal: "None",
+    medal: "none",
     link: "https://m.youtube.com/watch?v=RyUEj_n5OQQ&pp=ygUeV3JnIGJhcmNlbG9uYSByb2xsZXIgZnJlZXN0eWxl0gcJCcEJAYcqIYzv"
   },
   {
@@ -119,7 +119,7 @@ export const competitions: Competition[] = [
     location: " San Juan Argentina",
     placement: "13 and 20 st Place",
     category: "Street and Park",
-    medal: "None",
+    medal: "none",
     link: ""
   },
   {
@@ -129,7 +129,7 @@ export const competitions: Competition[] = [
     location: "Buenos Aires Argentina",
     placement: "13 and 29 st Place",
     category: "Street and Park",
-    medal: "None",
+    medal: "none",
     link: "https://m.youtube.com/watch?v=N1XTN5sksb0&pp=ygUoV29ybGQgIHNrYXRlIGdhbWVzICByb2xsZXIgZnJlc3R5bGUgMjAyMg%3D%3D"
   },
   {
@@ -159,7 +159,7 @@ export const competitions: Competition[] = [
     location: "Villa Marteli Argentina",
     placement: "1nd Place",
     category: "Park",
-    medal: "Gold",
+    medal: "gold",
     link: ""
   }
 ];
@@ -179,7 +179,7 @@ export const sponsors: Sponsor[] = [
     name: "Crazy People",
     logo: "🏬",
     description: "Aggressive skating gear and apparel",
-    website: "https://crazypeopleshop.com/",
+    website: "https://crazypeopleshop.com",
     featured: true
   },
   {
@@ -188,7 +188,7 @@ export const sponsors: Sponsor[] = [
     logo: "🕯️",
     description: "Wax and Bearing Maintenance ",
     website: "https://www.instagram.com/alluargentina?igsh=b2I3OXF4c2lmamRl",
-    featured: false
+    featured: true
   },
   {
     id: 4,
@@ -196,6 +196,6 @@ export const sponsors: Sponsor[] = [
     logo: "🛡️",
     description: "Protection and Straps",
     website: "https://www.instagram.com/topsoulok?igsh=MWVmeHp1cGJqeThzYw==",
-    featured: false
+    featured: true
   },
 ];
