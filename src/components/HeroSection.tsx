@@ -20,7 +20,7 @@ const HeroSection = () => {
         <div className="mb-8 relative inline-block">
           <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gradient-to-br from-red-500 to-red-700 p-1">
             <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center text-6xl overflow-hidden">
-              <img src="https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/santi.jpeg?raw=true" className="w-full h-full object-cover rounded-full"></img>
+              <img src="https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/santi_profile.jpeg?raw=true" className="w-full h-full object-cover rounded-full"></img>
             </div>
           </div>
           {/* Reduced glow effect */}
