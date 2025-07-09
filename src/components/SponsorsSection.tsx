@@ -9,7 +9,7 @@ const SponsorsSection = () => {
 
   const handleSponsorshipInquiry = () => {
     // Open email client or contact form
-    window.location.href = "mailto:contact@brothersname.com?subject=Sponsorship Inquiry&body=Hi, I'm interested in discussing sponsorship opportunities...";
+    window.location.href = "mailto:santiago.gallo96@outlook.com?subject=Sponsorship Inquiry&body=Hi, I'm interested in discussing sponsorship opportunities...";
   };
 
   return (
