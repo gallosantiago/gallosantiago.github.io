@@ -95,6 +95,8 @@ const SponsorsSection = () => {
                     ) : (
                       <span>{sponsor.logo}</span>
                     )}
+                  </div>
+
                   <h5 className="text-sm font-semibold text-white mb-2">{sponsor.name}</h5>
                   <a 
                     href={sponsor.website}
