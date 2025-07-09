@@ -192,7 +192,7 @@ export const sponsors: Sponsor[] = [
     logo: "🕯️",
     description: "Wax and Bearing Maintenance ",
     website: "https://www.instagram.com/alluargentina?igsh=b2I3OXF4c2lmamRl",
-    featured: true
+    featured: false
   },
   {
     id: 4,
@@ -200,6 +200,6 @@ export const sponsors: Sponsor[] = [
     logo: "🛡️",
     description: "Protection and Straps",
     website: "https://www.instagram.com/topsoulok?igsh=MWVmeHp1cGJqeThzYw==",
-    featured: true
+    featured: false
   },
 ];
