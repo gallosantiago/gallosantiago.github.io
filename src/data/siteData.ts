@@ -81,7 +81,7 @@ export const videos: Video[] = [
     title: "USD introduce ",
     description: "A Part For a Big Brand",
     thumbnail: "",
-    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Usdintro.jpg}?raw=true", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Usdintro.jpg}?raw=true"
+    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Usdintro.jpg?raw=true", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Usdintro.jpg}?raw=true"
     url: "https://m.youtube.com/watch?v=d2063AlK2Ug&pp=0gcJCfwAo7VqN5tD"
   },
   {
