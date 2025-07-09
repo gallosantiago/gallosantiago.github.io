@@ -207,7 +207,7 @@ export const sponsors: Sponsor[] = [
     id: 4,
     name: "Top Soul",
     logo: "",
-    logoImage: "",
+    logoImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Topsoul_logo.jpg?raw=true",
     description: "Protection and Straps",
     website: "https://www.instagram.com/topsoulok?igsh=MWVmeHp1cGJqeThzYw==",
     featured: true
