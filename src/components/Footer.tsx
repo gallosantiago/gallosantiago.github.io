@@ -26,7 +26,7 @@ const Footer = () => {
               </a>
               <div className="flex items-center gap-3 text-gray-300">
                 <MapPin className="w-5 h-5 text-red-400" />
-                <span>Your Buenos Aires, Argentina</span>
+                <span>Buenos Aires, Argentina</span>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-700 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 [Santiago gallo]. All rights reserved. Built with passion for roller freestyle.
+            © 2024 Santiago Gallo. All rights reserved. Built with passion for roller freestyle.
           </p>
         </div>
       </div>
