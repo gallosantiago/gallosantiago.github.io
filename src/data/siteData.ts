@@ -60,7 +60,7 @@ export const personalInfo: PersonalInfo = {
     "Today, he continues to inspire the next generation of skaters while representing some of the industry's most respected brands as a sponsored athlete."
   ],
   profileImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/santi_profile.jpeg?raw=true",
-  bioImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/santi_bio.jpeg?raw=true",
+  bioImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Backroyal.jpg?raw=true",
   stats: {
     competitions: "20+",
     sponsors: "4+",
@@ -80,32 +80,32 @@ export const videos: Video[] = [
     id: 1,
     title: "USD introduce ",
     description: "A Part For a Big Brand",
-    thumbnail: "🎥",
-    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{$IMAGE_NAME}?raw=true"
+    thumbnail: "",
+    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Usdintro.jpg}?raw=true"
     url: "https://m.youtube.com/watch?v=d2063AlK2Ug&pp=0gcJCfwAo7VqN5tD"
   },
   {
     id: 2,
     title: "Cordoba Tour",
     description: "2 Weeks En Cordoba With Friends",
-    thumbnail: "🛩️",
-    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{$IMAGE_NAME}?raw=true"
+    thumbnail: "",
+    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Caravanatour.jpg}?raw=true"
     url: "https://m.youtube.com/watch?v=YN24nY5xiVQ&fbclid=PAQ0xDSwLaoYZleHRuA2FlbQIxMAABp_gn3uWXeloK0su9THa78Q9l35HjPpv5KK5b6nJZwT5L7_5oA-MGznTGPusu_aem_T1plfKtISbK0bRwNmm3Haw#menu"
   },
   {
     id: 3,
     title: "Rey Galactiko",
     description: "Clips From Buenos Aires With Lacru",
-    thumbnail: "👨‍👨‍👦‍👦",
-    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{$IMAGE_NAME}?raw=true"
+    thumbnail: "",
+    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Reygalactiko.jpg}?raw=true"
     url: "https://m.youtube.com/watch?v=y8AMQW8u-VY&pp=ygUTUmV5IGdhbGFjdGlrbyBsYWNydQ%3D%3D"
   },
   {
     id: 4,
     title: "Leftovers ",
     description: "Leftover Street Clips",
-    thumbnail: "✂️",
-    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{$IMAGE_NAME}?raw=true"
+    thumbnail: "",
+    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Leftovers.jpg}?raw=true"
     url: "https://www.instagram.com/reel/DDx6Mr-s54-/?igsh=djduM25uNHZudHY2"
   }
 ];
@@ -179,7 +179,7 @@ export const sponsors: Sponsor[] = [
   {
     id: 1,
     name: "USD",
-    logo: "🛼",
+    logo: "",
     logoImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/logo_usd.jpg?raw=true",
     description: "Premium inline skates and equipment",
     website: "https://powerslide.com/pages/usd-homepage?srsltid=AfmBOopx5JTK5azKMm4wuj9WtMsyFLWpY5KTnuK5g6NOpOW0nXBmI59j",
@@ -188,7 +188,7 @@ export const sponsors: Sponsor[] = [
   {
     id: 2,
     name: "Crazy People",
-    logo: "🏬",
+    logo: "",
     logoImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/logo_crazy_people.webp?raw=true",
     description: "Aggressive skating gear and apparel",
     website: "https://crazypeopleshop.com",
@@ -197,8 +197,8 @@ export const sponsors: Sponsor[] = [
   {
     id: 3,
     name: "Allu",
-    logo: "🕯️",
-    logoImage: "",
+    logo: "",
+    logoImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Allu_logo.jpg?raw=true",
     description: "Wax and Bearing Maintenance ",
     website: "https://www.instagram.com/alluargentina?igsh=b2I3OXF4c2lmamRl",
     featured: false
@@ -206,7 +206,7 @@ export const sponsors: Sponsor[] = [
   {
     id: 4,
     name: "Top Soul",
-    logo: "🛡️",
+    logo: "",
     logoImage: "",
     description: "Protection and Straps",
     website: "https://www.instagram.com/topsoulok?igsh=MWVmeHp1cGJqeThzYw==",
