@@ -12,7 +12,7 @@ const ContactSection = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-red-400 to-red-600 mx-auto mb-6"></div>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Ready to connect? Reach out for collaborations, sponsorship opportunities, or just to talk skating!
+            Ready to connect? Reach out for collaborations, sponsorship opportunities, or just talk about skating!
           </p>
         </div>
 
