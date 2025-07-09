@@ -189,7 +189,7 @@ export const sponsors: Sponsor[] = [
     id: 2,
     name: "Crazy People",
     logo: "🏬",
-    logoImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/logo_crazy_people_webp?raw=true",
+    logoImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/logo_crazy_people.webp?raw=true",
     description: "Aggressive skating gear and apparel",
     website: "https://crazypeopleshop.com",
     featured: true
