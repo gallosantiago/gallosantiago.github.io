@@ -44,7 +44,7 @@ const CompetitionsSection = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-red-400 to-red-600 mx-auto mb-6"></div>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            A record of achievements and competitive performances in aggressive skating competitions
+            A record of achievements and competitive performances in roller freestyle competitions
           </p>
         </div>
 
