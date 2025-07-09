@@ -32,6 +32,8 @@ export interface PersonalInfo {
   title: string;
   subtitle: string;
   bio: string[];
+  profileImage?: string;
+  bioImage?: string;
   stats: {
     competitions: string;
     sponsors: string;
@@ -55,6 +57,8 @@ export const personalInfo: PersonalInfo = {
     "His journey began in 2012 Buenos Aires, where he first discovered the thrill of freestyle rolling. Through countless hours of practice, determination, and an unwavering passion for progression, he has mastered technical tricks and developed his own unique style that sets him apart in competitions.",
     "Today, he continues to inspire the next generation of skaters while representing some of the industry's most respected brands as a sponsored athlete."
   ],
+  profileImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/santi.jpeg?raw=true",
+  bioImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/santi_profile.jpeg?raw=true",
   stats: {
     competitions: "20+",
     sponsors: "4+",
