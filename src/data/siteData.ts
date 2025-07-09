@@ -87,7 +87,7 @@ export const videos: Video[] = [
   {
     id: 2,
     title: "Cordoba Tour",
-    description: "2 Weeks En Cordoba With Friends",
+    description: "2 Weeks in Cordoba With Friends",
     thumbnail: "",
     thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Caravanatour.jpg?raw=true", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Caravanatour.jpg}?raw=true"
     url: "https://m.youtube.com/watch?v=YN24nY5xiVQ&fbclid=PAQ0xDSwLaoYZleHRuA2FlbQIxMAABp_gn3uWXeloK0su9THa78Q9l35HjPpv5KK5b6nJZwT5L7_5oA-MGznTGPusu_aem_T1plfKtISbK0bRwNmm3Haw#menu"
