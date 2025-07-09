@@ -48,23 +48,23 @@ export interface PersonalInfo {
 // Personal Information
 export const personalInfo: PersonalInfo = {
   name: "Santiago Gallo",
-  title: "Aggressive Rollerskater",
+  title: "Roller Freestyle",
   subtitle: "Sponsored Athlete & Competitor",
   bio: [
     "Meet Santiago Gallo, a passionate aggressive rollerskater who has been pushing the boundaries of what's possible on wheels. With years of dedication to the sport, he has evolved from a local skater to a sponsored athlete competing at the highest levels.",
-    "His journey began in 2012 Buenos Aires, where he first discovered the thrill of aggressive skating. Through countless hours of practice, determination, and an unwavering passion for progression, he has mastered technical tricks and developed his own unique style that sets him apart in competitions.",
+    "His journey began in 2012 Buenos Aires, where he first discovered the thrill of freestyle rolling. Through countless hours of practice, determination, and an unwavering passion for progression, he has mastered technical tricks and developed his own unique style that sets him apart in competitions.",
     "Today, he continues to inspire the next generation of skaters while representing some of the industry's most respected brands as a sponsored athlete."
   ],
   stats: {
-    competitions: "6+",
+    competitions: "20+",
     sponsors: "4+",
-    experience: "11+"
+    experience: "15+"
   },
   contact: {
     email: "santiago.gallo96@outlook.com",
     location: "C.A.B.A, Aregentina",
     instagram: "https://www.instagram.com/santigangllo",
-    youtube: "https://www.youtube.com/@YourBrothersChannel"
+    youtube: "https://m.youtube.com/watch?v=d2063AlK2Ug&fbclid=PAQ0xDSwLanq9leHRuA2FlbQIxMAABp66vjhNXjZ5xcZW9ySuKhP-Nn55dhYx5ZkulajQtULnu1uBGlwBSnJ_uKPnJ_aem_mPVcKyUFR1N3kUF8Lkekgg"
   }
 };
 
@@ -72,31 +72,31 @@ export const personalInfo: PersonalInfo = {
 export const videos: Video[] = [
   {
     id: 1,
-    title: "Competition Highlights 2024",
-    description: "Video 1",
+    title: "USD introduce ",
+    description: "A Part For a Big Brand",
     thumbnail: "🎥",
-    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    url: "https://m.youtube.com/watch?v=d2063AlK2Ug&pp=0gcJCfwAo7VqN5tD"
   },
   {
     id: 2,
-    title: "Street Skating Session",
-    description: "Technical tricks in urban environment",
-    thumbnail: "🛹",
-    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    title: "Cordoba Tour",
+    description: "2 Weeks En Cordoba Whit Friends",
+    thumbnail: "🛩️",
+    url: "https://m.youtube.com/watch?v=YN24nY5xiVQ&fbclid=PAQ0xDSwLaoYZleHRuA2FlbQIxMAABp_gn3uWXeloK0su9THa78Q9l35HjPpv5KK5b6nJZwT5L7_5oA-MGznTGPusu_aem_T1plfKtISbK0bRwNmm3Haw#menu"
   },
   {
     id: 3,
-    title: "Park Session",
-    description: "Flow and creativity at the skate park",
-    thumbnail: "🏟️",
-    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    title: "Rey Galactiko",
+    description: "Clips From Buenos Aires Whit Lacru",
+    thumbnail: "👨‍👨‍👦‍👦",
+    url: "https://m.youtube.com/watch?v=y8AMQW8u-VY&pp=ygUTUmV5IGdhbGFjdGlrbyBsYWNydQ%3D%3D"
   },
   {
     id: 4,
-    title: "Training Montage",
-    description: "Behind the scenes training footage",
-    thumbnail: "💪",
-    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    title: "Leftovers ",
+    description: "Leftover Street Clips",
+    thumbnail: "✂️",
+    url: "https://www.instagram.com/reel/DDx6Mr-s54-/?igsh=djduM25uNHZudHY2"
   }
 ];
 
@@ -104,63 +104,63 @@ export const videos: Video[] = [
 export const competitions: Competition[] = [
   {
     id: 1,
-    name: "World Aggressive Skating Championships",
-    year: "2024",
-    location: "Los Angeles, CA",
-    placement: "3rd Place",
-    category: "Street",
-    medal: "bronze",
-    link: "https://example.com/competition1"
+    name: "World Skate Games",
+    year: "2019",
+    location: "Barcelona España",
+    placement: "20rd Place",
+    category: "Park",
+    medal: "None",
+    link: "https://m.youtube.com/watch?v=RyUEj_n5OQQ&pp=ygUeV3JnIGJhcmNlbG9uYSByb2xsZXIgZnJlZXN0eWxl0gcJCcEJAYcqIYzv"
   },
   {
     id: 2,
-    name: "National Street Championships",
-    year: "2024",
-    location: "New York, NY",
-    placement: "1st Place",
-    category: "Street",
-    medal: "gold",
-    link: "https://example.com/competition2"
+    name: "Sudamericano",
+    year: "2021",
+    location: " San Juan Argentina",
+    placement: "13 and 20 st Place",
+    category: "Street and Park",
+    medal: "None",
+    link: ""
   },
   {
     id: 3,
-    name: "Regional Vert Competition",
-    year: "2023",
-    location: "San Francisco, CA",
-    placement: "2nd Place",
-    category: "Vert",
-    medal: "silver",
-    link: "https://example.com/competition3"
+    name: "World Skate Games",
+    year: "2022",
+    location: "Buenos Aires Argentina",
+    placement: "13 and 29 st Place",
+    category: "Street and Park",
+    medal: "None",
+    link: "https://m.youtube.com/watch?v=N1XTN5sksb0&pp=ygUoV29ybGQgIHNrYXRlIGdhbWVzICByb2xsZXIgZnJlc3R5bGUgMjAyMg%3D%3D"
   },
   {
     id: 4,
-    name: "Summer Street Series",
+    name: "National championship ",
     year: "2023",
-    location: "Chicago, IL",
+    location: "Merlo Buenos Aires Argentina",
     placement: "1st Place",
     category: "Street",
     medal: "gold",
-    link: "https://example.com/competition4"
+    link: "https://www.instagram.com/reel/CtsWDwyg7cA/?igsh=MXUxeHFsenJkMjZjeQ=="
   },
   {
     id: 5,
-    name: "International Blade Games",
-    year: "2023",
-    location: "Miami, FL",
-    placement: "4th Place",
-    category: "Park",
-    medal: "none",
+    name: "Machetazo ",
+    year: "2025",
+    location: "Uruguay Montevideo",
+    placement: "2th Place",
+    category: "Street",
+    medal: "silver",
     link: "https://example.com/competition5"
   },
   {
     id: 6,
-    name: "West Coast Championships",
-    year: "2022",
-    location: "Seattle, WA",
-    placement: "2nd Place",
-    category: "Street",
-    medal: "silver",
-    link: "https://example.com/competition6"
+    name: "National Championship",
+    year: "2021",
+    location: "Villa Marteli Argentina",
+    placement: "1nd Place",
+    category: "Park",
+    medal: "Gold",
+    link: ""
   }
 ];
 
@@ -168,50 +168,34 @@ export const competitions: Competition[] = [
 export const sponsors: Sponsor[] = [
   {
     id: 1,
-    name: "Rollerblade",
+    name: "USD",
     logo: "🛼",
     description: "Premium inline skates and equipment",
-    website: "https://www.rollerblade.com",
+    website: "https://powerslide.com/pages/usd-homepage?srsltid=AfmBOopx5JTK5azKMm4wuj9WtMsyFLWpY5KTnuK5g6NOpOW0nXBmI59j",
     featured: true
   },
   {
     id: 2,
-    name: "Aggressive Mall",
+    name: "Crazy People",
     logo: "🏬",
     description: "Aggressive skating gear and apparel",
-    website: "https://www.aggressivemall.com",
+    website: "https://crazypeopleshop.com/",
     featured: true
   },
   {
     id: 3,
-    name: "USD Skates",
-    logo: "⚡",
-    description: "High-performance aggressive skates",
-    website: "https://www.usdskates.com",
+    name: "Allu",
+    logo: "🕯️",
+    description: "Wax and Bearing Maintenance ",
+    website: "https://www.instagram.com/alluargentina?igsh=b2I3OXF4c2lmamRl",
     featured: false
   },
   {
     id: 4,
-    name: "Kaltik",
-    logo: "🔧",
-    description: "Innovative frames and hardware",
-    website: "https://www.kaltik.com",
+    name: "Top Soul",
+    logo: "🛡️",
+    description: "Protection and Straps",
+    website: "https://www.instagram.com/topsoulok?igsh=MWVmeHp1cGJqeThzYw==",
     featured: false
   },
-  {
-    id: 5,
-    name: "Undercover Wheels",
-    logo: "🎯",
-    description: "Premium wheels for street skating",
-    website: "https://www.underwheels.com",
-    featured: false
-  },
-  {
-    id: 6,
-    name: "Oysi Frames",
-    logo: "⚙️",
-    description: "Professional skating frames",
-    website: "https://www.oysi.eu",
-    featured: false
-  }
 ];
