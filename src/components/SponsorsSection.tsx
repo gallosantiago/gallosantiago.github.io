@@ -1,45 +1,11 @@
 
 import { ExternalLink, Star, Mail } from "lucide-react";
+import { sponsors } from "@/data/siteData";
 
 const SponsorsSection = () => {
-  // Placeholder sponsor data - replace with actual sponsor information
-  const sponsors = [
-    {
-      id: 1,
-      name: "Sponsor Name 1",
-      logo: "🔥",
-      description: "Premium skating equipment and gear",
-      website: "https://www.example1.com", // Replace with actual sponsor website
-      tier: "main"
-    },
-    {
-      id: 2,
-      name: "Sponsor Name 2",
-      logo: "⚡",
-      description: "Professional wheels and bearings",
-      website: "https://www.example2.com", // Replace with actual sponsor website
-      tier: "main"
-    },
-    {
-      id: 3,
-      name: "Sponsor Name 3",
-      logo: "🛼",
-      description: "High-performance skates and frames",
-      website: "https://www.example3.com", // Replace with actual sponsor website
-      tier: "main"
-    },
-    {
-      id: 4,
-      name: "Sponsor Name 4",
-      logo: "🎯",
-      description: "Protective gear and accessories",
-      website: "https://www.example4.com", // Replace with actual sponsor website
-      tier: "support"
-    }
-  ];
-
-  const mainSponsors = sponsors.filter(sponsor => sponsor.tier === "main");
-  const supportSponsors = sponsors.filter(sponsor => sponsor.tier === "support");
+  // Placeholder sponsor data
+  const mainSponsors = sponsors.filter(sponsor => sponsor.featured);
+  const supportSponsors = sponsors.filter(sponsor => !sponsor.featured);
 
   const handleSponsorshipInquiry = () => {
     // Open email client or contact form
@@ -74,8 +40,16 @@ const SponsorsSection = () => {
                 className="group bg-gradient-to-br from-gray-800 to-gray-700 rounded-xl p-8 text-center hover:from-gray-700 hover:to-gray-600 transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl border border-gray-600 hover:border-red-400/30"
               >
                 {/* Logo */}
-                <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-red-400/10 to-red-600/10 rounded-full flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
-                  {sponsor.logo}
+                <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-red-400/10 to-red-600/10 rounded-full flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300 overflow-hidden">
+                  {sponsor.logo.startsWith('http') ? (
+                    <img 
+                      src={sponsor.logo} 
+                      alt={sponsor.name}
+                      className="w-full h-full object-cover rounded-full"
+                    />
+                  ) : (
+                    <span>{sponsor.logo}</span>
+                  )}
                 </div>
 
                 {/* Sponsor Info */}
@@ -111,9 +85,16 @@ const SponsorsSection = () => {
                   key={sponsor.id}
                   className="group bg-gray-700 rounded-lg p-6 text-center hover:bg-gray-600 transition-all duration-300 transform hover:scale-105"
                 >
-                  <div className="w-12 h-12 mx-auto mb-3 bg-gray-600 rounded-full flex items-center justify-center text-2xl group-hover:bg-gray-500 transition-colors duration-300">
-                    {sponsor.logo}
-                  </div>
+                  <div className="w-12 h-12 mx-auto mb-3 bg-gray-600 rounded-full flex items-center justify-center text-2xl group-hover:bg-gray-500 transition-colors duration-300 overflow-hidden">
+                    {sponsor.logo.startsWith('http') ? (
+                      <img 
+                        src={sponsor.logo} 
+                        alt={sponsor.name}
+                        className="w-full h-full object-cover rounded-full"
+                      />
+                    ) : (
+                      <span>{sponsor.logo}</span>
+                    )}
                   <h5 className="text-sm font-semibold text-white mb-2">{sponsor.name}</h5>
                   <a 
                     href={sponsor.website}
