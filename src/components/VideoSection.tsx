@@ -27,9 +27,18 @@ const VideoSection = () => {
               className="group relative bg-gradient-to-br from-gray-700 to-gray-800 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border border-gray-600"
             >
               {/* Video Thumbnail */}
-              <div className="aspect-video bg-gradient-to-br from-gray-600 to-gray-700 flex items-center justify-center text-6xl relative overflow-hidden">
+              <div className="aspect-video bg-gradient-to-br from-gray-600 to-gray-700 flex items-center justify-center relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-red-400/5 to-red-600/5"></div>
-                <span className="relative z-10">{video.thumbnail}</span>
+                
+                {video.thumbnailImage ? (
+                  <img 
+                    src={video.thumbnailImage} 
+                    alt={video.title}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <span className="relative z-10 text-6xl">{video.thumbnail}</span>
+                )}
                 
                 {/* Play Button Overlay */}
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/40">

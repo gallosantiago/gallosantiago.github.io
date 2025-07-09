@@ -3,13 +3,12 @@ import { ExternalLink, Star, Mail } from "lucide-react";
 import { sponsors } from "@/data/siteData";
 
 const SponsorsSection = () => {
-  // Placeholder sponsor data
   const mainSponsors = sponsors.filter(sponsor => sponsor.featured);
   const supportSponsors = sponsors.filter(sponsor => !sponsor.featured);
 
   const handleSponsorshipInquiry = () => {
     // Open email client or contact form
-    window.location.href = "mailto:santiago.gallo96@outlook.com?subject=Sponsorship Inquiry&body=Hi, I'm interested in discussing sponsorship opportunities...";
+    window.location.href = "mailto:contact@brothersname.com?subject=Sponsorship Inquiry&body=Hi, I'm interested in discussing sponsorship opportunities...";
   };
 
   return (
@@ -21,7 +20,7 @@ const SponsorsSection = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-red-400 to-red-600 mx-auto mb-6"></div>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Proud to be supported by these amazing brands that share our passion for roller freestyle 
+            Proud to be supported by these amazing brands that share our passion for aggressive skating
           </p>
         </div>
 
@@ -40,15 +39,15 @@ const SponsorsSection = () => {
                 className="group bg-gradient-to-br from-gray-800 to-gray-700 rounded-xl p-8 text-center hover:from-gray-700 hover:to-gray-600 transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl border border-gray-600 hover:border-red-400/30"
               >
                 {/* Logo */}
-                <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-red-400/10 to-red-600/10 rounded-full flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300 overflow-hidden">
-                  {sponsor.logo.startsWith('http') ? (
+                <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-red-400/10 to-red-600/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 overflow-hidden">
+                  {sponsor.logoImage ? (
                     <img 
-                      src={sponsor.logo} 
+                      src={sponsor.logoImage} 
                       alt={sponsor.name}
                       className="w-full h-full object-cover rounded-full"
                     />
                   ) : (
-                    <span>{sponsor.logo}</span>
+                    <span className="text-4xl">{sponsor.logo}</span>
                   )}
                 </div>
 
@@ -85,18 +84,17 @@ const SponsorsSection = () => {
                   key={sponsor.id}
                   className="group bg-gray-700 rounded-lg p-6 text-center hover:bg-gray-600 transition-all duration-300 transform hover:scale-105"
                 >
-                  <div className="w-12 h-12 mx-auto mb-3 bg-gray-600 rounded-full flex items-center justify-center text-2xl group-hover:bg-gray-500 transition-colors duration-300 overflow-hidden">
-                    {sponsor.logo.startsWith('http') ? (
+                  <div className="w-12 h-12 mx-auto mb-3 bg-gray-600 rounded-full flex items-center justify-center group-hover:bg-gray-500 transition-colors duration-300 overflow-hidden">
+                    {sponsor.logoImage ? (
                       <img 
-                        src={sponsor.logo} 
+                        src={sponsor.logoImage} 
                         alt={sponsor.name}
                         className="w-full h-full object-cover rounded-full"
                       />
                     ) : (
-                      <span>{sponsor.logo}</span>
+                      <span className="text-2xl">{sponsor.logo}</span>
                     )}
                   </div>
-
                   <h5 className="text-sm font-semibold text-white mb-2">{sponsor.name}</h5>
                   <a 
                     href={sponsor.website}

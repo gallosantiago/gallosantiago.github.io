@@ -4,6 +4,7 @@ export interface Video {
   title: string;
   description: string;
   thumbnail: string;
+  thumbnailImage?: string;
   url: string;
 }
 
@@ -22,6 +23,7 @@ export interface Sponsor {
   id: number;
   name: string;
   logo: string;
+  logoImage?: string;
   description: string;
   website: string;
   featured: boolean;
@@ -79,6 +81,7 @@ export const videos: Video[] = [
     title: "USD introduce ",
     description: "A Part For a Big Brand",
     thumbnail: "🎥",
+    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{$IMAGE_NAME}?raw=true"
     url: "https://m.youtube.com/watch?v=d2063AlK2Ug&pp=0gcJCfwAo7VqN5tD"
   },
   {
@@ -86,6 +89,7 @@ export const videos: Video[] = [
     title: "Cordoba Tour",
     description: "2 Weeks En Cordoba With Friends",
     thumbnail: "🛩️",
+    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{$IMAGE_NAME}?raw=true"
     url: "https://m.youtube.com/watch?v=YN24nY5xiVQ&fbclid=PAQ0xDSwLaoYZleHRuA2FlbQIxMAABp_gn3uWXeloK0su9THa78Q9l35HjPpv5KK5b6nJZwT5L7_5oA-MGznTGPusu_aem_T1plfKtISbK0bRwNmm3Haw#menu"
   },
   {
@@ -93,6 +97,7 @@ export const videos: Video[] = [
     title: "Rey Galactiko",
     description: "Clips From Buenos Aires With Lacru",
     thumbnail: "👨‍👨‍👦‍👦",
+    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{$IMAGE_NAME}?raw=true"
     url: "https://m.youtube.com/watch?v=y8AMQW8u-VY&pp=ygUTUmV5IGdhbGFjdGlrbyBsYWNydQ%3D%3D"
   },
   {
@@ -100,6 +105,7 @@ export const videos: Video[] = [
     title: "Leftovers ",
     description: "Leftover Street Clips",
     thumbnail: "✂️",
+    thumbnailImage: "", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{$IMAGE_NAME}?raw=true"
     url: "https://www.instagram.com/reel/DDx6Mr-s54-/?igsh=djduM25uNHZudHY2"
   }
 ];
@@ -174,6 +180,7 @@ export const sponsors: Sponsor[] = [
     id: 1,
     name: "USD",
     logo: "🛼",
+    logoImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/logo_usd.jpg?raw=true",
     description: "Premium inline skates and equipment",
     website: "https://powerslide.com/pages/usd-homepage?srsltid=AfmBOopx5JTK5azKMm4wuj9WtMsyFLWpY5KTnuK5g6NOpOW0nXBmI59j",
     featured: true
@@ -182,6 +189,7 @@ export const sponsors: Sponsor[] = [
     id: 2,
     name: "Crazy People",
     logo: "🏬",
+    logoImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/logo_crazy_people_webp?raw=true",
     description: "Aggressive skating gear and apparel",
     website: "https://crazypeopleshop.com",
     featured: true
@@ -190,6 +198,7 @@ export const sponsors: Sponsor[] = [
     id: 3,
     name: "Allu",
     logo: "🕯️",
+    logoImage: "",
     description: "Wax and Bearing Maintenance ",
     website: "https://www.instagram.com/alluargentina?igsh=b2I3OXF4c2lmamRl",
     featured: false
@@ -198,6 +207,7 @@ export const sponsors: Sponsor[] = [
     id: 4,
     name: "Top Soul",
     logo: "🛡️",
+    logoImage: "",
     description: "Protection and Straps",
     website: "https://www.instagram.com/topsoulok?igsh=MWVmeHp1cGJqeThzYw==",
     featured: false
