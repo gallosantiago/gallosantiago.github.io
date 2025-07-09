@@ -46,7 +46,11 @@ const BioSection = () => {
           <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl overflow-hidden shadow-2xl">
               <div className="w-full h-full flex items-center justify-center text-6xl bg-gradient-to-br from-red-400/10 to-red-600/10 overflow-hidden">
-                <img src="https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/santi_bio.jpeg?raw=true" className="w-full h-full object-cover"></img>
+                <img
+                  src={personalInfo.bioImage} 
+                  alt={personalInfo.name}
+                  className="w-full h-full object-cover"
+                ></img>
               </div>
             </div>
             {/* Reduced glow effect */}
