@@ -55,7 +55,7 @@ export const personalInfo: PersonalInfo = {
   title: "Roller Freestyle",
   subtitle: "Sponsored Athlete & Competitor",
   bio: [
-    "Meet Santiago Gallo, a passionate inline freestyle skater who has been pushing the boundaries of what's possible on wheels. With years of dedication to the sport, he has evolved from a local skater to a sponsored athlete competing at the highest levels.",
+    "Meet Santiago Gallo, a passionate Inline Freestyle skater who has been pushing the boundaries of what's possible on wheels. With years of dedication to the sport, he has evolved from a local skater to a sponsored athlete competing at the highest levels.",
     "His journey began in 2012 Buenos Aires, where he first discovered the thrill of freestyle rolling. Through countless hours of practice, determination, and an unwavering passion for progression, he has mastered technical tricks and developed his own unique style that sets him apart in competitions.",
     "Today, he continues to inspire the next generation of skaters while representing some of the industry's most respected brands as a sponsored athlete."
   ],
@@ -78,18 +78,18 @@ export const personalInfo: PersonalInfo = {
 export const videos: Video[] = [
   {
     id: 1,
-    title: "USD introduce ",
+    title: "USD Introduce ",
     description: "A Part For a Big Brand",
     thumbnail: "",
-    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Usdintro.jpg?raw=true", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Usdintro.jpg}?raw=true"
+    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Usdintro.jpg?raw=true",
     url: "https://m.youtube.com/watch?v=d2063AlK2Ug&pp=0gcJCfwAo7VqN5tD"
   },
   {
     id: 2,
     title: "Cordoba Tour",
-    description: "2 Weeks in Cordoba With Friends",
+    description: "2 Weeks In Cordoba With Friends",
     thumbnail: "",
-    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Caravanatour.jpg?raw=true", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Caravanatour.jpg}?raw=true"
+    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Caravanatour.jpg?raw=true",
     url: "https://m.youtube.com/watch?v=YN24nY5xiVQ&fbclid=PAQ0xDSwLaoYZleHRuA2FlbQIxMAABp_gn3uWXeloK0su9THa78Q9l35HjPpv5KK5b6nJZwT5L7_5oA-MGznTGPusu_aem_T1plfKtISbK0bRwNmm3Haw#menu"
   },
   {
@@ -97,7 +97,7 @@ export const videos: Video[] = [
     title: "Rey Galactiko",
     description: "Clips From Buenos Aires With Lacru",
     thumbnail: "",
-    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Reygalactiko.jpg?raw=true", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Reygalactiko.jpg}?raw=true"
+    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Reygalactiko.jpg?raw=true",
     url: "https://m.youtube.com/watch?v=y8AMQW8u-VY&pp=ygUTUmV5IGdhbGFjdGlrbyBsYWNydQ%3D%3D"
   },
   {
@@ -105,7 +105,7 @@ export const videos: Video[] = [
     title: "Leftovers ",
     description: "Leftover Street Clips",
     thumbnail: "",
-    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Leftovers.jpg?raw=true", // "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/{Leftovers.jpg}?raw=true"
+    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Leftovers.jpg?raw=true",
     url: "https://www.instagram.com/reel/DDx6Mr-s54-/?igsh=djduM25uNHZudHY2"
   }
 ];
@@ -181,7 +181,7 @@ export const sponsors: Sponsor[] = [
     name: "USD",
     logo: "",
     logoImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/logo_usd.jpg?raw=true",
-    description: "Premium inline skates and equipment",
+    description: "Premium Inline Skates And Equipment",
     website: "https://powerslide.com/pages/usd-homepage?srsltid=AfmBOopx5JTK5azKMm4wuj9WtMsyFLWpY5KTnuK5g6NOpOW0nXBmI59j",
     featured: true
   },
@@ -190,7 +190,7 @@ export const sponsors: Sponsor[] = [
     name: "Crazy People",
     logo: "",
     logoImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/logo_crazy_people.webp?raw=true",
-    description: "Aggressive skating gear and apparel",
+    description: "Aggressive Skating Gear And Apparel",
     website: "https://crazypeopleshop.com",
     featured: true
   },
