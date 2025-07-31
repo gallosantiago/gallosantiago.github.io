@@ -103,7 +103,7 @@ export const videos: Video[] = [
   {
     id: 4,
     title: "Santiago Gallo USD 2025 ",
-    description: "2 weeks Trip",
+    description: " 2 Weeks Trip",
     thumbnail: "",
     thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/USD2025.jpg?raw=true",
     url: "https://youtu.be/yX9Lzze3qvM?si=1kwaJsKkkGwojL1S"
