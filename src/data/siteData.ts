@@ -102,11 +102,11 @@ export const videos: Video[] = [
   },
   {
     id: 4,
-    title: "Leftovers ",
-    description: "Leftover Street Clips",
+    title: "Santiago Gallo USD 2025 ",
+    description: "2 weeks Trip",
     thumbnail: "",
-    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/Leftovers.jpg?raw=true",
-    url: "https://www.instagram.com/reel/DDx6Mr-s54-/?igsh=djduM25uNHZudHY2"
+    thumbnailImage: "https://github.com/gallosantiago/gallosantiago.github.io/blob/main/public/USD2025.jpg?raw=true",
+    url: "https://youtu.be/yX9Lzze3qvM?si=1kwaJsKkkGwojL1S"
   }
 ];
 
